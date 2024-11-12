@@ -1,0 +1,91 @@
+.donar-container {
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(../images/img.jpeg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .title h1{
+   right: 2000%;
+
+ }
+
+.form {
+    width: 300px;
+    height: 620px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%);
+    position: absolute;   
+    top: 65px;
+    left: 960px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fb7185;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 6px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ff7200;
+    color: rgb(160, 166, 172);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.btn {
+    width: 160px;
+    height: 40px;
+    background: #fb7185;
+    border: none;
+    border-radius: 5px;
+    margin: 13px 0 0 19%; 
+    margin-right: 500px;
+}
+
+.btn:hover {
+    background-color: white;
+}
+.join{
+    width: 160px;
+    height: 40px;
+    background: #fb7185;
+    border-radius: 5px;
+    border: none;
+    margin: 13px 0 0 19%;
+    margin-right: 120px;
+
+}
+.join:hover{
+    background-color: aliceblue;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ach {
+    margin-left: 29%;
+    color: orange;
+}
+
+.ach:hover {
+    color: aliceblue;
+}
